@@ -9,7 +9,6 @@
 En este ejercicio se va a construír el componente BlueprintsRESTAPI, el cual permita gestionar los planos arquitectónicos de una prestigiosa compañia de diseño. La idea de este API es ofrecer un medio estandarizado e 'independiente de la plataforma' para que las herramientas que se desarrollen a futuro para la compañía puedan gestionar los planos de forma centralizada.
 El siguiente, es el diagrama de componentes que corresponde a las decisiones arquitectónicas planteadas al inicio del proyecto:
 
-![image](https://github.com/user-attachments/assets/f9c55e52-f00e-4d2c-a4d4-df36c8aa2cac)
 
 
 Donde se definió que:
@@ -18,8 +17,6 @@ Donde se definió que:
 
 Del anterior diagrama de componentes (de alto nivel), se desprendió el siguiente diseño detallado, cuando se decidió que el API estará implementado usando el esquema de inyección de dependencias de Spring (el cual requiere aplicar el principio de Inversión de Dependencias), la extensión SpringMVC para definir los servicios REST, y SpringBoot para la configurar la aplicación:
 
-
-![image](https://github.com/user-attachments/assets/3c879d2c-fd39-4bd6-83cb-d8febe66d917)
 
 
 ### Parte I
